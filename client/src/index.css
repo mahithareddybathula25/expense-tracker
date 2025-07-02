@@ -1,0 +1,24 @@
+.btn-group {
+  display: flex;
+  gap: 8px;
+  margin-top: 4px;
+}
+
+.btn-group button {
+  padding: 4px 8px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 0.85rem;
+  transition: background 0.2s ease-in-out;
+}
+
+.btn-group button:first-child {
+  background-color: #f0c14b;
+  color: #333;
+}
+
+.btn-group button:last-child {
+  background-color: #f56565;
+  color: white;
+}
